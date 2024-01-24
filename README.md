@@ -18,7 +18,7 @@ When getting data from Monday's API, it will return the data as well as a cursor
 
 ## Instructions
 1) Create 'APIKey' function with your Monday API Key
-* Other options include hardcoding into function or as a query (If as query, do not let it load or you could leak the key!)
+* Other options include hardcoding into function or as a query <ins>(If as query, do not let it load or you could leak the key!)</ins>
 3) Create the function "Fn_RecursiveMondayItems"
 * Name it whatever you want
   
