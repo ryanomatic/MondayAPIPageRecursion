@@ -1,5 +1,5 @@
 # Monday API Items Recursion for Power BI / PowerQuery
-PowerBI Solution for recursively loading data from Monday.com with cursor pagination.
+PowerBI Solution for recursively loading data from Monday.com with cursor pagination for API v2024-01.
 
 ## Help needed:
 Is it possible to pass null values into PowerQuery functions? Not a practical problem but not an elegant solution since we can simply pass "new" instead. If you know how to do this, please let me know/merge in your changes.
