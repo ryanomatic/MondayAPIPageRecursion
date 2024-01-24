@@ -17,9 +17,9 @@ Monday API version 2023-10 introduced pagination to items (limite 500), breaking
 When getting data from Monday's API, it will return the data as well as a cursor which is the next subset of data. The function grabs data either starting with a fresh query or using a cursor. If there is no additional cursor, it will return the data it received. If there is a cursor, it will call itself again (with the new cursor) and append the returned data together. This continues forever until the end of data is found, your computer runs out of memory, or a recursion limit is hit (never seen it, even using tiny batch sizes).  
 
 ## Instructions
-1) Create 'APIKey' query with your Monday API Key
-
-2) Create the function "Fn_RecursiveMondayItems"
+1) Create 'APIKey' function with your Monday API Key
+* Other options include hardcoding into function or as a query (If as query, do not let it load or you could leak the key!)
+3) Create the function "Fn_RecursiveMondayItems"
 * Name it whatever you want
   
 3) Invoke the function using the parameters below
